@@ -1,5 +1,5 @@
 /**
- * Saihasoft Interactive Script Engine
+ * digiarmada Interactive Script Engine
  * Handles Custom Cursors, Nav draw control, tabs, numbers counter, and form validations.
  */
 

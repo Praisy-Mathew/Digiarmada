@@ -183,9 +183,9 @@ gsap.from(".list-services li",{
 
 
 
-gsap.from(".saiha-caps",{
+gsap.from(".digiarmada-caps",{
     scrollTrigger:{
-        trigger:".saiha-caps",
+        trigger:".digiarmada-caps",
         scroller: ".smooth-scroll",
         start: 'top 60%',
         markers: false,

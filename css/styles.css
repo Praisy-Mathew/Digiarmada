@@ -940,12 +940,12 @@ span.two {
   width: 100%;
 }
 
-.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container {
+.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container {
   position: relative;
   height: 50vh;
 }
 
-.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .about-position-tv {
+.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .about-position-tv {
   position: absolute;
   z-index: 9;
   top: 34%;
@@ -953,14 +953,14 @@ span.two {
   left: -5%;
 }
 
-.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .saiha-tv-sub-container {
+.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .digiarmada-tv-sub-container {
   position: relative;
   height: 100%;
   width: 84%;
 }
 
 
-.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .saiha-tv-sub-container .about-block-img-4 {
+.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .digiarmada-tv-sub-container .about-block-img-4 {
 
   position: absolute;
   left: 26%;
@@ -989,7 +989,7 @@ span.two {
 
 
 
-.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .saiha-tv-sub-container .about-block-img-2 {
+.about-block-web .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .digiarmada-tv-sub-container .about-block-img-2 {
   position: absolute;
   max-width: 100%;
   z-index: 3;
@@ -1167,7 +1167,7 @@ span.two {
 }
 
 @media (min-height: 1100px) {
-  .about-block-web .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .saiha-tv-sub-container {
+  .about-block-web .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .digiarmada-tv-sub-container {
     height: 37vh;
   }
 }
@@ -1256,12 +1256,12 @@ span.two {
   width: 100%;
 }
 
-.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container {
+.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container {
   position: relative;
   height: 50vh;
 }
 
-.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .about-position-tv {
+.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .about-position-tv {
   /* position: absolute;
   z-index: 9;
   top: 30%;
@@ -1281,14 +1281,14 @@ span.two {
   right: 2%;
 }
 
-.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .saiha-tv-sub-container {
+.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .digiarmada-tv-sub-container {
   position: relative;
   height: 100%;
   width: 84%;
 }
 
 
-.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .saiha-tv-sub-container .about-block-img-4 {
+.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .digiarmada-tv-sub-container .about-block-img-4 {
 
   /* position: absolute;
   left: 26%;
@@ -1323,7 +1323,7 @@ span.two {
 
 
 
-.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .saiha-tv-container .saiha-tv-sub-container .about-block-img-2 {
+.about-block-mob .about-block-parent .about-block-child .about-block-child-img-container .digiarmada-tv-container .digiarmada-tv-sub-container .about-block-img-2 {
 
   /* position: absolute;
   max-width: 100%;
@@ -2803,27 +2803,27 @@ span.two {
   }
 }
 
-.contact-block .saiha-caps {
+.contact-block .digiarmada-caps {
   position: absolute;
   width: 500px;
   bottom: -30px;
 }
 
 @media (max-width: 767px) {
-  .contact-block .saiha-caps {
+  .contact-block .digiarmada-caps {
     bottom: 0;
     position: relative;
   }
 }
 
 @media (max-width: 576px) {
-  .contact-block .saiha-caps {
+  .contact-block .digiarmada-caps {
     width: 300px;
   }
 }
 
 @media (max-width: 991px) {
-  .contact-block .saiha-caps img {
+  .contact-block .digiarmada-caps img {
     width: 100%;
   }
 }
