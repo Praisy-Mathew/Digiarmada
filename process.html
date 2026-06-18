@@ -152,6 +152,12 @@
   /* --- 2. Mobile View Layout Overrides --- */
   @media (max-width: 991px) {
       
+      /* Make slides naturally vertically scrollable */
+      .swiper-slide {
+          overflow-y: auto !important;
+          -webkit-overflow-scrolling: touch !important;
+      }
+      
       /* Move pagination dots so they are visible and accessible */
       .wrapper .mainWrap .splashWrap .swiper-container.sectionSlider .swiper-pagination {
           display: flex !important;
@@ -168,10 +174,12 @@
           flex-direction: column !important;
           justify-content: flex-start !important;
           align-items: center !important;
-          height: 100vh !important;
+          height: auto !important;
+          min-height: 100% !important;
+          overflow: visible !important;
           top: 0 !important;
           transform: none !important;
-          padding: 80px 10px 20px 10px !important; /* Provide room for the header */
+          padding: 60px 10px 10px 10px !important; /* Provide room for the header */
           box-sizing: border-box !important;
       }
 
@@ -180,11 +188,12 @@
       .wrapper .mainWrap .splashWrap.projectFull .swiper-slide.swiper-slide-active .splashContent .rightSide {
           position: relative !important;
           width: 100% !important;
-          height: 45vh !important; 
+          height: 38vh !important;
+          flex: none !important;
           left: 0 !important;
           top: 0 !important;
           transform: none !important;
-          margin: 0 auto !important;
+          margin: 40px auto 0 auto !important;
           display: flex !important;
           align-items: center !important;
           justify-content: flex-start !important;
@@ -242,17 +251,26 @@
       .wrapper .mainWrap .splashWrap.projectFull .swiper-slide.swiper-slide-active .splashContent .leftSide {
           position: relative !important;
           width: 100% !important;
-          height: 45vh !important; 
+          height: auto !important;
+          flex: 1 !important;
+            min-height: 0 !important;
           left: 0 !important;
           top: 0 !important;
           transform: none !important;
-          padding: 10px 15px 10px 50px !important; /* Padding so it doesn't overlap pagination dots */
+          padding: 10px 15px 30px 50px !important; /* Padding so it doesn't overlap pagination dots */
           box-sizing: border-box !important;
-          overflow-y: auto !important; 
+          overflow: visible !important;
+          pointer-events: auto !important;
           display: block !important;
           z-index: 99 !important;
       }
 
+      /* Hide Outcome section on mobile */
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .text b,
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .text ul {
+          display: none !important;
+      }
+      
       /* Un-hide the paragraph text on mobile */
       .wrapper .mainWrap .splashWrap .splashContent .leftSide .text {
           display: block !important;
