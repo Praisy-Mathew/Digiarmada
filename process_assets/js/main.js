@@ -191,33 +191,37 @@ function workAll() {
         }
 
         initWorksSwiper();
-
-        // Custom vertical swipe logic to trigger horizontal slides on mobile
+// Robust custom vertical swipe logic for mobile
+        var sliderEl = document.querySelector('.sectionSlider.swiper-container');
         var touchStartY = 0;
-        var touchEndY = 0;
-        $('.sectionSlider.swiper-container').on('touchstart', function(e) {
-            touchStartY = e.originalEvent.touches[0].clientY;
-        });
-        $('.sectionSlider.swiper-container').on('touchmove', function(e) {
-            // Prevent default vertical scrolling if we are swiping vertically to change slides
-            var touchCurrentY = e.originalEvent.touches[0].clientY;
-            if (Math.abs(touchCurrentY - touchStartY) > 10) {
-                e.preventDefault();
-            }
-        });
-        $('.sectionSlider.swiper-container').on('touchend', function(e) {
-            touchEndY = e.originalEvent.changedTouches[0].clientY;
-            var diff = touchStartY - touchEndY;
-            if (Math.abs(diff) > 50 && $(window).width() <= 991) {
-                // If swiped UP (scrolling down the page), go to next slide
-                if (diff > 0) {
-                    swiper.slideNext();
-                } else {
-                    // Swiped DOWN (scrolling up the page), go to prev slide
-                    swiper.slidePrev();
+        if (sliderEl) {
+            sliderEl.addEventListener('touchstart', function(e) {
+                touchStartY = e.touches[0].clientY;
+            }, { passive: false, capture: true });
+            
+            sliderEl.addEventListener('touchmove', function(e) {
+                if ($(window).width() > 991) return;
+                var touchCurrentY = e.touches[0].clientY;
+                if (Math.abs(touchCurrentY - touchStartY) > 10) {
+                    e.preventDefault();
                 }
-            }
-        });
+            }, { passive: false, capture: true });
+            
+            sliderEl.addEventListener('touchend', function(e) {
+                if ($(window).width() > 991) return;
+                var touchEndY = e.changedTouches[0].clientY;
+                var diff = touchStartY - touchEndY;
+                if (Math.abs(diff) > 40) {
+                    if (diff > 0) {
+                        swiper.slideNext();
+                    } else {
+                        swiper.slidePrev();
+                    }
+                }
+            }, { passive: false, capture: true });
+        }
+
+        
         
         
 
