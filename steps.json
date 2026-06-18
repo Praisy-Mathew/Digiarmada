@@ -1,0 +1,42 @@
+[
+  {
+    "title": "01. Consultation",
+    "desc": "We begin by understanding your business, objectives, challenges, and project requirements through a detailed discussion.",
+    "img": ""
+  },
+  {
+    "title": "02. Research & Analysis",
+    "desc": "Our team conducts research on your industry, competitors, target audience, and market opportunities to create the right strategy.",
+    "img": ""
+  },
+  {
+    "title": "03. Strategy & Planning",
+    "desc": "We create a detailed project roadmap outlining timelines, deliverables, technologies, and execution plans.",
+    "img": ""
+  },
+  {
+    "title": "04. Design & Prototyping",
+    "desc": "Our designers create visually appealing and user-focused concepts that align with your brand and business goals.",
+    "img": ""
+  },
+  {
+    "title": "05. Development & Implementation",
+    "desc": "Once approved, our team brings the project to life using modern technologies and best development practices.",
+    "img": ""
+  },
+  {
+    "title": "06. Testing & Optimization",
+    "desc": "Every solution is thoroughly tested to ensure quality, performance, security, and seamless functionality.",
+    "img": ""
+  },
+  {
+    "title": "07. Launch & Deployment",
+    "desc": "After successful testing and approval, we launch your project and ensure everything runs smoothly.",
+    "img": ""
+  },
+  {
+    "title": "08. Support & Growth",
+    "desc": "Our relationship continues after launch. We provide ongoing support, updates, optimization, and growth strategies to help your business succeed.",
+    "img": ""
+  }
+]

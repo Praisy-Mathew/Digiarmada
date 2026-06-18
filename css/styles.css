@@ -8084,3 +8084,9 @@ body {
     padding: 0 !important;
     min-height: 100vh !important;
 }
+
+
+/* --- Update Sidebar Font Size --- */
+.menu .data ul li a {
+    font-size: 40px !important;
+}

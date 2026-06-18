@@ -1,0 +1,179 @@
+
+  /* 1. Set the text labels to numbers instead of categories */
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(1):before { content: '01' !important; }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(2):before { content: '02' !important; }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(3):before { content: '03' !important; }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(4):before { content: '04' !important; }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(5):before { content: '05' !important; }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(6):before { content: '06' !important; }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(7):before { content: '07' !important; }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:nth-child(8):before { content: '08' !important; }
+
+  /* 2. Fix colors to be visible on our light backgrounds! */
+  /* The text itself */
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet:before {
+      color: #333 !important; 
+  }
+  
+  
+
+  
+
+  /* 3. Reduce the vertical spacing between the bullets */
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified {
+      height: 320px !important; /* Originally 500px, which caused huge gaps when stretched */
+      justify-content: center !important; /* Keep them centered vertically */
+  }
+  .wrapper .splashWrap .swiper-container .swiper-pagination-bullets.modified .swiper-pagination-bullet {
+      margin: 12px 0 !important; /* Force a compact vertical margin */
+  }
+
+  /* 4. Force the pagination and description text to be visible on mobile screens */
+  @media (max-width: 991px) {
+      .wrapper .mainWrap .splashWrap .swiper-container.sectionSlider .swiper-pagination {
+          display: flex !important;
+          flex-direction: column !important;
+          z-index: 2147483647 !important; /* Absolute max z-index */
+          top: 40% !important; 
+          transform: translateY(-50%) !important; 
+          margin-top: 0 !important;
+      }
+      
+      /* Revamped Mobile Text & Image Layout */
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide {
+          top: 15% !important; 
+          z-index: 99 !important;
+      }
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .text {
+          display: block !important;
+          visibility: visible !important;
+          opacity: 1 !important;
+          margin-top: 15px !important;
+          font-size: 13px !important; 
+          line-height: 1.4 !important;
+          max-height: 60vh !important; /* Let it breathe */
+          overflow-y: auto !important; 
+          padding-right: 15px !important;
+          /* Removed the bulky glass box! */
+          background: transparent !important; 
+          backdrop-filter: none !important;
+          padding: 0 !important;
+      }
+
+      /* Turn the clashing images into a beautiful, faint watermark background on mobile */
+      .wrapper .mainWrap .splashWrap .splashContent .rightSide {
+          opacity: 0.15 !important; /* Faint watermark effect */
+          z-index: 1 !important; /* Keep it strictly in the background */
+          pointer-events: none !important; /* Stop it from blocking text scrolling */
+      }
+      
+      .wrapper .mainWrap .splashWrap.projectFull .swiper-slide .splashContent .leftSide,
+      .wrapper .mainWrap .splashWrap.projectFull .swiper-slide.swiper-slide-active .splashContent .leftSide {
+          position: relative !important;
+          width: 100% !important;
+          height: 55vh !important; /* Let text take the rest */
+          left: 0 !important;
+          top: 0 !important;
+          transform: none !important;
+          padding: 10px 15px 10px 50px !important; /* 50px left padding to avoid pagination dots */
+          box-sizing: border-box !important;
+          overflow-y: auto !important; /* Allows scrolling if text is very long */
+          display: block !important;
+      }
+      
+      /* Reduce size of slide number (e.g. "1/8") on mobile */
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .slideNum {
+          font-size: 30px !important;
+          margin-bottom: 5px !important;
+      }
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .category {
+          font-size: 16px !important;
+          margin-bottom: 5px !important;
+      }
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .title {
+          font-size: 24px !important;
+          margin-bottom: 10px !important;
+      }
+  }
+  }
+
+  /* --- Pure HTML/CSS Mobile Layout (Bypassing Javascript entirely) --- */
+  @media (max-width: 991px) {
+      /* Hide the complex JS-controlled elements */
+      .wrapper .mainWrap .splashWrap .splashContent .rightSide {
+          display: none !important;
+      }
+      
+      /* Setup the clean Flexbox container */
+      .wrapper .mainWrap .splashWrap .splashContent {
+          display: flex !important;
+          flex-direction: column !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          height: 100vh !important;
+          top: 0 !important;
+          transform: none !important;
+          padding: 80px 10px 20px 10px !important;
+          box-sizing: border-box !important;
+      }
+
+      /* Style the clean, independent mobile image container */
+      .wrapper .mainWrap .splashWrap .splashContent .mobile-only-image {
+          display: flex !important;
+          width: 100% !important;
+          height: 35vh !important;
+          justify-content: center !important;
+          align-items: center !important;
+          position: relative !important;
+          z-index: 9999 !important; /* Ensure it stays on top */
+      }
+      .wrapper .mainWrap .splashWrap .splashContent .mobile-only-image img {
+          max-width: 95% !important;
+          max-height: 95% !important;
+          object-fit: contain !important;
+          opacity: 1 !important; /* Untouched by JS */
+      }
+
+      /* Setup the text container to cleanly flow below */
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide {
+          display: block !important;
+          width: 100% !important;
+          height: 55vh !important;
+          position: relative !important;
+          padding: 10px 15px 10px 50px !important;
+          overflow-y: auto !important;
+          transform: none !important; /* Kill JS offsets */
+      }
+      
+      /* Force the description text to show */
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .text {
+          display: block !important;
+          visibility: visible !important;
+          opacity: 1 !important;
+          margin-top: 15px !important;
+          font-size: 13px !important;
+          line-height: 1.5 !important;
+          transform: none !important; /* Kill JS offsets */
+      }
+
+      /* Scale down headings */
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .slideNum {
+          font-size: 30px !important;
+          margin-bottom: 5px !important;
+      }
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .category {
+          font-size: 16px !important;
+          margin-bottom: 5px !important;
+      }
+      .wrapper .mainWrap .splashWrap .splashContent .leftSide .title {
+          font-size: 24px !important;
+          margin-bottom: 10px !important;
+      }
+  }
+
+  /* Hide the mobile image container on desktop */
+  @media (min-width: 992px) {
+      .mobile-only-image {
+          display: none !important;
+      }
+  }
