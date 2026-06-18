@@ -125,7 +125,7 @@ function workAll() {
                 keyboard: true,
                 speed: 1000,
                 hashNavigation: true,
-                direction: 'vertical',
+                direction: 'horizontal',
                 longSwipes: false,
                 followFinger: false,
                 passiveListeners: false,
@@ -140,7 +140,7 @@ function workAll() {
                     768: {
                         slidesPerView: 1,
                         speed: 500,
-                        direction: 'horizontal'
+                        direction: 'vertical'
                     }
                 },
                 on: {
@@ -191,6 +191,35 @@ function workAll() {
         }
 
         initWorksSwiper();
+
+        // Custom vertical swipe logic to trigger horizontal slides on mobile
+        var touchStartY = 0;
+        var touchEndY = 0;
+        $('.sectionSlider.swiper-container').on('touchstart', function(e) {
+            touchStartY = e.originalEvent.touches[0].clientY;
+        });
+        $('.sectionSlider.swiper-container').on('touchmove', function(e) {
+            // Prevent default vertical scrolling if we are swiping vertically to change slides
+            var touchCurrentY = e.originalEvent.touches[0].clientY;
+            if (Math.abs(touchCurrentY - touchStartY) > 10) {
+                e.preventDefault();
+            }
+        });
+        $('.sectionSlider.swiper-container').on('touchend', function(e) {
+            touchEndY = e.originalEvent.changedTouches[0].clientY;
+            var diff = touchStartY - touchEndY;
+            if (Math.abs(diff) > 50 && $(window).width() <= 991) {
+                // If swiped UP (scrolling down the page), go to next slide
+                if (diff > 0) {
+                    swiper.slideNext();
+                } else {
+                    // Swiped DOWN (scrolling up the page), go to prev slide
+                    swiper.slidePrev();
+                }
+            }
+        });
+        
+        
 
         var newsSwiper = new Swiper('.newsSlider.swiper-container', {
             speed: 300,
