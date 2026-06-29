@@ -125,7 +125,7 @@
   padding: 9px 30px;
   border-radius: 19px;
   color: #fff;
-  background-color: #f64522;
+  background-color: #1c3a5e;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -392,14 +392,14 @@
 }
 .blog-section .blog-footer .load-btn2 {
   color: #fff;
-  background-color: #f64522;
+  background-color: #1c3a5e;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   padding: 10px 25px;
 }
 
 .view-more-a {
-  color: #f64522 !important;
+  color: #1c3a5e !important;
   margin-bottom: 20px;
   font-size: 12px;
   display: none;
@@ -422,7 +422,7 @@
 }
 
 .parrallax-block h2 {
-  color: #0ea5e9 !important;
+  color: #1c3a5e !important;
 }
 
 /* Body paragraphs — dark readable text on white */
@@ -471,7 +471,7 @@
 
 .parrallax-block .list-services .icon-box i {
   font-size: 1.35rem !important;
-  color: #0ea5e9 !important;
+  color: #1c3a5e !important;
   transition: transform 0.35s cubic-bezier(0.25, 1, 0.3, 1) !important;
 }
 
@@ -513,7 +513,7 @@
 }
 
 .parrallax-block .list-services li:hover h4 {
-  color: #0ea5e9 !important;
+  color: #1c3a5e !important;
 }
 
 /* Mobile responsive alignment overrides */
@@ -621,7 +621,7 @@
   gap: 8px !important;
   background: linear-gradient(135deg, rgba(14,165,233,0.1), rgba(139,92,246,0.1)) !important;
   border: 1px solid rgba(14,165,233,0.25) !important;
-  color: #0ea5e9 !important;
+  color: #1c3a5e !important;
   font-family: 'Poppins', sans-serif !important;
   font-size: 0.78rem !important;
   font-weight: 700 !important;
@@ -655,7 +655,7 @@
 }
 
 .industries-title span {
-  background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 55%, #ec4899 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 55%, #1c3a5e 100%) !important;
   background-size: 200% auto !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -696,7 +696,7 @@
   font-family: 'Poppins', sans-serif !important;
   font-size: 2rem !important;
   font-weight: 800 !important;
-  background: linear-gradient(135deg, #0ea5e9, #8b5cf6) !important;
+  background: linear-gradient(135deg, #1c3a5e, #1c3a5e) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -889,7 +889,7 @@
   display: block !important;
   height: 2.5px !important;
   width: 0 !important;
-  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 50%, #8b5cf6)) !important;
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 50%, #1c3a5e)) !important;
   margin-top: 5px !important;
   border-radius: 2px !important;
   transition: width 0.4s cubic-bezier(0.25,1,0.3,1) !important;
@@ -925,7 +925,7 @@
   content: '' !important;
   display: block !important;
   height: 4px !important;
-  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 55%, #8b5cf6)) !important;
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 55%, #1c3a5e)) !important;
   width: 0 !important;
   transition: width 0.48s cubic-bezier(0.25,1,0.3,1) !important;
   border-radius: 0 0 22px 22px !important;
@@ -955,7 +955,7 @@
   display: inline-flex !important;
   align-items: center !important;
   gap: 10px !important;
-  background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 100%) !important;
   background-size: 200% auto !important;
   color: #ffffff !important;
   font-family: 'Poppins', sans-serif !important;
@@ -1059,7 +1059,7 @@
 }
 
 .casestudy-block .process-subtitle {
-  color: #f64522 !important; /* Brand orange accent */
+  color: #1c3a5e !important; /* Brand orange accent */
   font-family: 'Poppins', sans-serif !important;
   font-size: 1.35rem !important;
   font-weight: 600 !important;
@@ -1100,8 +1100,8 @@
 }
 
 #casestudy_slider .case-box:hover {
-  border-color: rgba(246, 69, 34, 0.25) !important;
-  box-shadow: 0 15px 35px rgba(246, 69, 34, 0.1) !important;
+  border-color: rgba(28, 58, 94, 0.25) !important;
+  box-shadow: 0 15px 35px rgba(28, 58, 94, 0.1) !important;
 }
 
 /* Responsive adjustment for case-box */
@@ -1161,9 +1161,9 @@
 }
 
 #casestudy_slider .owl-nav button:hover {
-  background-color: #f64522 !important; /* Brand orange hover glow */
-  border-color: #f64522 !important;
-  box-shadow: 0 0 15px rgba(246, 69, 34, 0.45) !important;
+  background-color: #1c3a5e !important; /* Brand orange hover glow */
+  border-color: #1c3a5e !important;
+  box-shadow: 0 0 15px rgba(28, 58, 94, 0.45) !important;
   transform: translateY(-2px) !important;
 }
 
@@ -1187,7 +1187,7 @@
 }
 
 #casestudy_slider .item-counts sub {
-  color: #f64522 !important; /* Brand orange counter sub */
+  color: #1c3a5e !important; /* Brand orange counter sub */
   font-size: 1.3rem !important;
   font-weight: 700 !important;
 }
@@ -1214,11 +1214,11 @@
 }
 
 .process-btn:hover {
-  background: #f64522 !important;
-  border-color: #f64522 !important;
+  background: #1c3a5e !important;
+  border-color: #1c3a5e !important;
   color: #ffffff !important;
   transform: translateY(-3px) !important;
-  box-shadow: 0 8px 20px rgba(246, 69, 34, 0.45) !important;
+  box-shadow: 0 8px 20px rgba(28, 58, 94, 0.45) !important;
   text-decoration: none !important;
 }
 
@@ -1342,7 +1342,7 @@
 }
 
 .hero-content-wrapper h1 span {
-  background: linear-gradient(135deg, #f64522 0%, #a855f7 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important;
@@ -1363,8 +1363,8 @@
 }
 
 .hero-ctas .btn-primary-hero {
-  background: #f64522 !important;
-  border: 1.5px solid #f64522 !important;
+  background: #1c3a5e !important;
+  border: 1.5px solid #1c3a5e !important;
   color: #ffffff !important;
   padding: 14px 34px !important;
   border-radius: 30px !important;
@@ -1372,14 +1372,14 @@
   font-weight: 600 !important;
   font-size: 1rem !important;
   transition: all 0.35s cubic-bezier(0.25, 1, 0.3, 1) !important;
-  box-shadow: 0 4px 15px rgba(246, 69, 34, 0.35) !important;
+  box-shadow: 0 4px 15px rgba(28, 58, 94, 0.35) !important;
   text-decoration: none !important;
 }
 
 .hero-ctas .btn-primary-hero:hover {
   background: #e03b1a !important;
   border-color: #e03b1a !important;
-  box-shadow: 0 8px 25px rgba(246, 69, 34, 0.5) !important;
+  box-shadow: 0 8px 25px rgba(28, 58, 94, 0.5) !important;
   transform: translateY(-3px) !important;
   color: #ffffff !important;
   text-decoration: none !important;
@@ -1436,7 +1436,7 @@
   right: 8% !important;
   width: 380px !important;
   height: 380px !important;
-  background: rgba(246, 69, 34, 0.1) !important;
+  background: rgba(28, 58, 94, 0.1) !important;
   border-radius: 50% !important;
   filter: blur(130px) !important;
   animation: heroBlobMotion 26s infinite alternate-reverse !important;
@@ -1539,16 +1539,16 @@
 .about-badge {
   display: inline-flex !important;
   align-items: center !important;
-  background: rgba(246, 69, 34, 0.07) !important; /* Soft brand-orange tint background */
-  border: 1px solid rgba(246, 69, 34, 0.15) !important; /* Soft brand-orange border */
+  background: rgba(28, 58, 94, 0.07) !important; /* Soft brand-orange tint background */
+  border: 1px solid rgba(28, 58, 94, 0.15) !important; /* Soft brand-orange border */
   padding: 8px 18px !important;
   border-radius: 30px !important;
-  color: #f64522 !important; /* Brand orange color */
+  color: #1c3a5e !important; /* Brand orange color */
   font-size: 0.9rem !important;
   font-weight: 600 !important;
   font-family: 'Poppins', sans-serif !important;
   margin-bottom: 25px !important;
-  box-shadow: 0 4px 15px rgba(246, 69, 34, 0.05) !important;
+  box-shadow: 0 4px 15px rgba(28, 58, 94, 0.05) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
 }
@@ -1564,14 +1564,14 @@
 }
 
 .about-content-col h2 span {
-  background: linear-gradient(135deg, #f64522 0%, #a855f7 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important;
 }
 
 .about-content-col h3 {
-  color: #f64522 !important;
+  color: #1c3a5e !important;
   font-size: 1.4rem !important;
   margin-top: 5px !important;
   margin-bottom: 25px !important;
@@ -1592,8 +1592,8 @@
 }
 
 .btn-primary-about {
-  background: #f64522 !important;
-  border: 1.5px solid #f64522 !important;
+  background: #1c3a5e !important;
+  border: 1.5px solid #1c3a5e !important;
   color: #ffffff !important;
   padding: 13px 32px !important;
   border-radius: 30px !important;
@@ -1601,7 +1601,7 @@
   font-weight: 600 !important;
   font-size: 0.95rem !important;
   transition: all 0.35s cubic-bezier(0.25, 1, 0.3, 1) !important;
-  box-shadow: 0 4px 15px rgba(246, 69, 34, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(28, 58, 94, 0.3) !important;
   text-decoration: none !important;
   display: inline-block !important;
 }
@@ -1609,7 +1609,7 @@
 .btn-primary-about:hover {
   background: #e03b1a !important;
   border-color: #e03b1a !important;
-  box-shadow: 0 8px 25px rgba(246, 69, 34, 0.45) !important;
+  box-shadow: 0 8px 25px rgba(28, 58, 94, 0.45) !important;
   transform: translateY(-3px) !important;
   color: #ffffff !important;
   text-decoration: none !important;
@@ -1625,7 +1625,7 @@
 
 .about-card-container {
   background: rgba(255, 255, 255, 0.65) !important;
-  border: 1px solid rgba(246, 69, 34, 0.08) !important;
+  border: 1px solid rgba(28, 58, 94, 0.08) !important;
   border-radius: 24px !important;
   padding: 24px !important;
   max-width: 500px !important;
@@ -1641,8 +1641,8 @@
 
 .about-card-container:hover {
   transform: translateY(-8px) scale(1.02) !important;
-  border-color: rgba(246, 69, 34, 0.25) !important;
-  box-shadow: 0 25px 50px rgba(246, 69, 34, 0.12) !important;
+  border-color: rgba(28, 58, 94, 0.25) !important;
+  box-shadow: 0 25px 50px rgba(28, 58, 94, 0.12) !important;
 }
 
 .about-card-container img {
@@ -1681,7 +1681,7 @@
   left: 5% !important;
   width: 350px !important;
   height: 350px !important;
-  background: rgba(246, 69, 34, 0.08) !important; /* Soft orange glow */
+  background: rgba(28, 58, 94, 0.08) !important; /* Soft orange glow */
   border-radius: 50% !important;
   filter: blur(120px) !important;
   animation: aboutBlobMotion 24s infinite alternate-reverse !important;
@@ -1759,7 +1759,7 @@
 /* --- Modern Services Section Styles --- */
 .services-block {
   background: radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.12), transparent 50%), 
-              radial-gradient(circle at 20% 80%, rgba(246, 69, 34, 0.08), transparent 50%), 
+              radial-gradient(circle at 20% 80%, rgba(28, 58, 94, 0.08), transparent 50%), 
               #0b0914 !important; /* Deep dark cosmic background theme */
   padding: 150px 0 !important; /* Increased vertical padding to contain floating mockup cards */
   position: relative !important;
@@ -1778,7 +1778,7 @@
 }
 
 .services-block h2 span.hidetext {
-  background: linear-gradient(135deg, #f64522 0%, #a855f7 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important;
@@ -1869,32 +1869,32 @@
 /* Active background & left accent indicators */
 .gallery-thumbs .blue-color1.swiper-slide-thumb-active {
   background: rgba(50, 91, 255, 0.12) !important;
-  border-left: 4px solid #325BFF !important;
+  border-left: 4px solid #1c3a5e !important;
   border-color: rgba(50, 91, 255, 0.25) !important;
 }
 .gallery-thumbs .orange-color1.swiper-slide-thumb-active {
   background: rgba(254, 140, 0, 0.12) !important;
-  border-left: 4px solid #FE8C00 !important;
+  border-left: 4px solid #1c3a5e !important;
   border-color: rgba(254, 140, 0, 0.25) !important;
 }
 .gallery-thumbs .skyblue-color1.swiper-slide-thumb-active {
   background: rgba(80, 201, 195, 0.12) !important;
-  border-left: 4px solid #50C9C3 !important;
+  border-left: 4px solid #1c3a5e !important;
   border-color: rgba(80, 201, 195, 0.25) !important;
 }
 .gallery-thumbs .brandBlue-color1.swiper-slide-thumb-active {
   background: rgba(0, 198, 255, 0.12) !important;
-  border-left: 4px solid #00C6FF !important;
+  border-left: 4px solid #1c3a5e !important;
   border-color: rgba(0, 198, 255, 0.25) !important;
 }
 .gallery-thumbs .green-color1.swiper-slide-thumb-active {
-  background: rgba(246, 69, 34, 0.12) !important;
-  border-left: 4px solid #f64522 !important;
-  border-color: rgba(246, 69, 34, 0.25) !important;
+  background: rgba(28, 58, 94, 0.12) !important;
+  border-left: 4px solid #1c3a5e !important;
+  border-color: rgba(28, 58, 94, 0.25) !important;
 }
 .gallery-thumbs .lightOrange-color1.swiper-slide-thumb-active {
   background: rgba(255, 140, 47, 0.12) !important;
-  border-left: 4px solid #FF8C2F !important;
+  border-left: 4px solid #1c3a5e !important;
   border-color: rgba(255, 140, 47, 0.25) !important;
 }
 
@@ -1953,9 +1953,9 @@
 /* Hover state glow and brand-orange background */
 .gallery-container > .swiper-button-prev:hover,
 .gallery-container > .swiper-button-next:hover {
-  background: #f64522 !important;
-  border-color: #f64522 !important;
-  box-shadow: 0 0 15px rgba(246, 69, 34, 0.5) !important;
+  background: #1c3a5e !important;
+  border-color: #1c3a5e !important;
+  box-shadow: 0 0 15px rgba(28, 58, 94, 0.5) !important;
 }
 
 .gallery-container > .swiper-button-prev:hover::after,
@@ -2046,12 +2046,12 @@
 }
 
 .tab-box.blue-color h3 {
-  background: linear-gradient(135deg, #325BFF 0%, #B000FF 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #B000FF 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .tab-box.orange-color h3 {
-  background: linear-gradient(135deg, #FE8C00 0%, #F83600 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #F83600 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
@@ -2061,17 +2061,17 @@
   -webkit-text-fill-color: transparent !important;
 }
 .tab-box.brandBlue-color h3 {
-  background: linear-gradient(135deg, #00C6FF 0%, #0072FF 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #0072FF 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .tab-box.green-color h3 {
-  background: linear-gradient(135deg, #f64522 0%, #a855f7 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .tab-box.lightOrange-color h3 {
-  background: linear-gradient(135deg, #FF8C2F 0%, #F09819 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #F09819 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
@@ -2119,27 +2119,27 @@
 
 .tab-box.blue-color ul.clientList li::before {
   background: rgba(50, 91, 255, 0.15) !important;
-  color: #325BFF !important;
+  color: #1c3a5e !important;
 }
 .tab-box.orange-color ul.clientList li::before {
   background: rgba(254, 140, 0, 0.15) !important;
-  color: #FE8C00 !important;
+  color: #1c3a5e !important;
 }
 .tab-box.skyblue-color ul.clientList li::before {
   background: rgba(50, 201, 195, 0.15) !important;
-  color: #50C9C3 !important;
+  color: #1c3a5e !important;
 }
 .tab-box.brandBlue-color ul.clientList li::before {
   background: rgba(0, 198, 255, 0.15) !important;
-  color: #00C6FF !important;
+  color: #1c3a5e !important;
 }
 .tab-box.green-color ul.clientList li::before {
-  background: rgba(246, 69, 34, 0.15) !important;
-  color: #f64522 !important;
+  background: rgba(28, 58, 94, 0.15) !important;
+  color: #1c3a5e !important;
 }
 .tab-box.lightOrange-color ul.clientList li::before {
   background: rgba(255, 140, 47, 0.15) !important;
-  color: #FF8C2F !important;
+  color: #1c3a5e !important;
 }
 
 /* ============================================
@@ -2266,7 +2266,7 @@
   box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(0,198,255,0.18) !important;
 }
 .tab-box.green-color .img-card {
-  box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(246,69,34,0.18) !important;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(28, 58, 94,0.18) !important;
 }
 .tab-box.lightOrange-color .img-card {
   box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(255,140,47,0.18) !important;
@@ -2286,7 +2286,7 @@
   box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(0,198,255,0.4) !important;
 }
 .tab-box.green-color .img-card:hover {
-  box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(246,69,34,0.4) !important;
+  box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(28, 58, 94,0.4) !important;
 }
 .tab-box.lightOrange-color .img-card:hover {
   box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(255,140,47,0.4) !important;
@@ -2297,7 +2297,7 @@
 .tab-box.orange-color .img-card-1 { border-left: 3px solid rgba(254,140,0,0.5) !important; }
 .tab-box.skyblue-color .img-card-1 { border-left: 3px solid rgba(80,201,195,0.5) !important; }
 .tab-box.brandBlue-color .img-card-1 { border-left: 3px solid rgba(0,198,255,0.5) !important; }
-.tab-box.green-color .img-card-1 { border-left: 3px solid rgba(246,69,34,0.5) !important; }
+.tab-box.green-color .img-card-1 { border-left: 3px solid rgba(28, 58, 94,0.5) !important; }
 .tab-box.lightOrange-color .img-card-1 { border-left: 3px solid rgba(255,140,47,0.5) !important; }
 
 @media (max-width: 991px) {

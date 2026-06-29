@@ -30,7 +30,7 @@
 
 .btn-orange {
   color: #fff;
-  background-color: #f64522;
+  background-color: #1c3a5e;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -274,7 +274,7 @@ p {
 
 .site-wrapper {
   overflow: hidden;
-  background-color: #fd4912;
+  background-color: #1c3a5e;
 }
 
 .searchBox {
@@ -295,7 +295,7 @@ p {
 }
 
 .searchBox:hover {
-  background-color: #e64212;
+  background-color: #1c3a5e;
 }
 
 .searchBox:hover>.searchInput {
@@ -330,7 +330,7 @@ input.searchInput::placeholder {
 }
 
 .searchBox:hover>.searchButton svg {
-  fill: #f84f1a;
+  fill: #1c3a5e;
 }
 
 .searchButton {
@@ -1652,7 +1652,7 @@ span.two {
 }
 
 .tabs-left>li a.active {
-  background-color: #ff4b2d;
+  background-color: #1c3a5e;
   color: #fff;
   border-bottom-left-radius: 12px;
   border-top-left-radius: 12px;
@@ -1674,7 +1674,7 @@ span.two {
   position: absolute;
   width: 15px;
   height: 50px;
-  background-color: #ff4b2c;
+  background-color: #1c3a5e;
 }
 
 .services-block {
@@ -1825,8 +1825,8 @@ span.two {
 }
 
 .tab-box {
-  /* background: rgb(255, 75, 43);
-  background: linear-gradient(124deg, #ff4b2b 0%, #ff418c 95%); */
+  /* background: rgb(28, 58, 94);
+  background: linear-gradient(124deg, #1c3a5e 0%, #1c3a5e 95%); */
   color: #fff;
   padding: 80px 20px 40px 80px;
   border-radius: 12px;
@@ -2139,14 +2139,14 @@ span.two {
   margin: 0;
   overflow: hidden;
   display: block;
-  background: linear-gradient(to bottom, #ee5b2f 0%, #fe3d01 100%);
+  background: linear-gradient(to bottom, #1c3a5e 0%, #1c3a5e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .parrallax-block h1 span {
   display: block;
-  background: linear-gradient(to bottom, #ee5b2f 0%, #fe3d01 100%);
+  background: linear-gradient(to bottom, #1c3a5e 0%, #1c3a5e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2586,8 +2586,8 @@ span.two {
 }
 
 .case-bg2 {
-  background: #ff4b2b;
-  background: linear-gradient(94deg, #ff4b2b 0%, #ff418c 54%);
+  background: #1c3a5e;
+  background: linear-gradient(94deg, #1c3a5e 0%, #1c3a5e 54%);
 }
 
 .case-bg3 {
@@ -4889,7 +4889,7 @@ span.two {
 .about-service h1 span {
   display: block;
   position: relative;
-  background: -webkit-linear-gradient(#ec5f34, #ff426b);
+  background: -webkit-linear-gradient(#ec5f34, #1c3a5e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -5157,14 +5157,14 @@ span.two {
 
 .contactus .contact-forms .btn-send {
   background: #85c16d;
-  background: linear-gradient(188deg, #ec5f34 0%, #ff426b 100%);
+  background: linear-gradient(188deg, #ec5f34 0%, #1c3a5e 100%);
   box-shadow: 2px 8px 16px 4px rgba(0, 0, 0, 0.12);
 }
 
 .contactus .contact-forms h1 {
   display: block;
   position: relative;
-  background: -webkit-linear-gradient(#ec5f34, #ff426b);
+  background: -webkit-linear-gradient(#ec5f34, #1c3a5e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -6546,7 +6546,7 @@ span.two {
 
 .gallery-thumbs .swiper-slide-thumb-active {
   opacity: 1;
-  /* background-color: #ff4b2b; */
+  /* background-color: #1c3a5e; */
   color: #fff;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -7341,54 +7341,54 @@ span.two {
 
 
 .blue-color {
-  background: linear-gradient(124deg, #325BFF 0%, #B000FF 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #B000FF 95%);
 }
 
 .gallery-thumbs .blue-color1.swiper-slide-thumb-active {
-  background-color: #325BFF;
+  background-color: #1c3a5e;
 }
 
 .orange-color {
-  background: linear-gradient(124deg, #FE8C00 0%, #F83600 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #F83600 95%);
   ;
 }
 
 .gallery-thumbs .orange-color1.swiper-slide-thumb-active {
-  background-color: #FE8C00;
+  background-color: #1c3a5e;
 }
 
 .skyblue-color {
-  background: linear-gradient(124deg, #50C9C3 0%, #96DEDA 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #96DEDA 95%);
 }
 
 .gallery-thumbs .skyblue-color1.swiper-slide-thumb-active {
-  background-color: #50C9C3;
+  background-color: #1c3a5e;
 }
 
 .brandBlue-color {
-  background: linear-gradient(124deg, #00C6FF 0%, #0072FF 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #0072FF 95%);
   ;
 }
 
 .gallery-thumbs .brandBlue-color1.swiper-slide-thumb-active {
-  background-color: #00C6FF;
+  background-color: #1c3a5e;
 }
 
 .green-color {
-  background: linear-gradient(124deg, #ff4b2b 0%, #ff418c 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #1c3a5e 95%);
 }
 
 .gallery-thumbs .green-color1.swiper-slide-thumb-active {
-  background-color: #ff4b2b;
+  background-color: #1c3a5e;
 }
 
 .lightOrange-color {
-  background: linear-gradient(124deg, #FF8C2F 0%, #F09819 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #F09819 95%);
   ;
 }
 
 .gallery-thumbs .lightOrange-color1.swiper-slide-thumb-active {
-  background-color: #FF8C2F;
+  background-color: #1c3a5e;
 }
 
 .seoBlue-color {
@@ -8089,4 +8089,28 @@ body {
 /* --- Update Sidebar Font Size --- */
 .menu .data ul li a {
     font-size: 40px !important;
+}
+
+
+/* Flexbox override for header alignment */
+.brand-header, .brand-header2 {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.brand-header .brand-logo, .brand-header2 .brand-logo {
+  position: static !important;
+  margin: 0 !important;
+}
+.brand-header .home-menu, .brand-header2 .home-menu {
+  position: static !important;
+  margin: 0 !important;
+}
+@media (max-width: 767px) {
+  .brand-header, .brand-header2 {
+    padding: 10px 20px !important;
+  }
+  .brand-logo img {
+    max-height: 80px !important; /* Scale logo down a bit on mobile to prevent overflow */
+  }
 }

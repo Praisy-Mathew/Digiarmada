@@ -2045,7 +2045,7 @@ span.one {
 }
 
 .searchBox:hover {
-  background-color: #e64212;
+  background-color: #1c3a5e;
 }
 
 .searchBox:hover>.searchInput {
@@ -2086,7 +2086,7 @@ input.searchInput::placeholder {
 }
 
 .searchBox:hover>.searchButton svg {
-  fill: #f84f1a;
+  fill: #1c3a5e;
 }
 
 .searchButton {
