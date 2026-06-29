@@ -354,7 +354,7 @@
 .cursor-follower2.active {
   opacity: 1;
   transform: scale(3);
-  background-color: #fd4811;
+  background-color: #ff8c00;
 }
 .cursor-follower2.active span {
   display: block;
@@ -1377,8 +1377,8 @@
 }
 
 .hero-ctas .btn-primary-hero:hover {
-  background: #e03b1a !important;
-  border-color: #e03b1a !important;
+  background: #ff8c00 !important;
+  border-color: #ff8c00 !important;
   box-shadow: 0 8px 25px rgba(28, 58, 94, 0.5) !important;
   transform: translateY(-3px) !important;
   color: #ffffff !important;
@@ -1607,8 +1607,8 @@
 }
 
 .btn-primary-about:hover {
-  background: #e03b1a !important;
-  border-color: #e03b1a !important;
+  background: #ff8c00 !important;
+  border-color: #ff8c00 !important;
   box-shadow: 0 8px 25px rgba(28, 58, 94, 0.45) !important;
   transform: translateY(-3px) !important;
   color: #ffffff !important;
@@ -1778,7 +1778,7 @@
 }
 
 .services-block h2 span.hidetext {
-  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 100%) !important;
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important;
@@ -1868,14 +1868,14 @@
 
 /* Active background & left accent indicators */
 .gallery-thumbs .blue-color1.swiper-slide-thumb-active {
-  background: rgba(50, 91, 255, 0.12) !important;
-  border-left: 4px solid #1c3a5e !important;
-  border-color: rgba(50, 91, 255, 0.25) !important;
+  background: rgba(138, 43, 226, 0.12) !important;
+  border-left: 4px solid #8a2be2 !important;
+  border-color: rgba(138, 43, 226, 0.25) !important;
 }
 .gallery-thumbs .orange-color1.swiper-slide-thumb-active {
-  background: rgba(254, 140, 0, 0.12) !important;
-  border-left: 4px solid #1c3a5e !important;
-  border-color: rgba(254, 140, 0, 0.25) !important;
+  background: rgba(255, 140, 0, 0.12) !important;
+  border-left: 4px solid #ff8c00 !important;
+  border-color: rgba(255, 140, 0, 0.25) !important;
 }
 .gallery-thumbs .skyblue-color1.swiper-slide-thumb-active {
   background: rgba(80, 201, 195, 0.12) !important;
@@ -2046,12 +2046,12 @@
 }
 
 .tab-box.blue-color h3 {
-  background: linear-gradient(135deg, #1c3a5e 0%, #B000FF 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #8a2be2 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .tab-box.orange-color h3 {
-  background: linear-gradient(135deg, #1c3a5e 0%, #F83600 100%) !important;
+  background: linear-gradient(135deg, #1c3a5e 0%, #ff8c00 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }

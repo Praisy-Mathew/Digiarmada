@@ -1757,7 +1757,7 @@ span.two {
 }
 
 .services-block #sync1 .item {
-  background: #0c83e7;
+  background: #8a2be2;
   padding: 80px 0px;
   margin: 0;
   color: #FFF;
@@ -1786,7 +1786,7 @@ span.two {
 }
 
 .services-block #sync2 .current .item {
-  background: #0c83e7;
+  background: #8a2be2;
 }
 
 .services-block .owl-theme .owl-nav [class*=owl-] {
@@ -2559,7 +2559,7 @@ span.two {
 
 #testimonial_slider .item .card-block:hover {
   box-shadow: 2px 8px 40px 6px rgba(65, 47, 47, 0.2);
-  background: #36a493;
+  background: #8a2be2;
 }
 
 #testimonial_slider .item .card-block:hover .test-users {
@@ -2591,8 +2591,8 @@ span.two {
 }
 
 .case-bg3 {
-  background: #6cbdc0;
-  background: linear-gradient(94deg, #6cbdc0 0%, #b2dedf 54%);
+  background: #8a2be2;
+  background: linear-gradient(94deg, #8a2be2 0%, #b2dedf 54%);
 }
 
 #casestudy_slider .item-counts {
@@ -2765,7 +2765,7 @@ span.two {
   left: 0;
   top: 40px;
   line-height: 28px;
-  color: #46989f;
+  color: #ff8c00;
 }
 
 @media (max-width: 991px) {
@@ -2846,8 +2846,8 @@ span.two {
 }
 
 .count-block {
-  background: #6cbdc0;
-  background: linear-gradient(94deg, #6cbdc0 0%, #b2dedf 54%);
+  background: #8a2be2;
+  background: linear-gradient(94deg, #8a2be2 0%, #b2dedf 54%);
   padding: 80px 0;
   text-align: center;
 }
@@ -3142,16 +3142,16 @@ span.two {
 }
 
 .first {
-  background: #0c83e7;
+  background: #8a2be2;
 }
 
 .second {
-  background: #0c83e7;
+  background: #8a2be2;
   left: 33.3%;
 }
 
 .third {
-  background: #0c83e7;
+  background: #8a2be2;
   left: 66.6%;
 }
 
@@ -4037,10 +4037,10 @@ span.two {
 }
 
 .subcribe-block {
-  background: #c1936d;
+  background: #ff8c00;
   /* Old browsers */
-  background: linear-gradient(to bottom, #c1936d 23%, #d1ae91 67%, #e0c7b4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c1936d", endColorstr="#e0c7b4", GradientType=0);
+  background: linear-gradient(to bottom, #ff8c00 23%, #d1ae91 67%, #e0c7b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8c00", endColorstr="#e0c7b4", GradientType=0);
   padding: 70px 0;
   position: relative;
 }
@@ -5589,7 +5589,7 @@ span.two {
 .cursor-follower.active {
   opacity: 1;
   transform: scale(3);
-  background-color: #fd4811;
+  background-color: #ff8c00;
 }
 
 .cursor-follower.active span {
@@ -5843,7 +5843,7 @@ span.two {
 
 #testimonial_slider .active-item .card-block {
   box-shadow: 2px 8px 40px 6px rgba(65, 47, 47, 0.2);
-  background: #36a493;
+  background: #8a2be2;
 }
 
 #testimonial_slider .active-item .card-block h2,
@@ -7177,7 +7177,7 @@ span.two {
 @media (max-width: 767px) {
   #testimonial_slider .owl-item.active .card-block {
     box-shadow: 2px 8px 60px 12px rgba(0, 0, 0, 0.2);
-    background: #36a493;
+    background: #8a2be2;
     min-height: 640px;
   }
 
@@ -7341,20 +7341,20 @@ span.two {
 
 
 .blue-color {
-  background: linear-gradient(124deg, #1c3a5e 0%, #B000FF 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #8a2be2 95%);
 }
 
 .gallery-thumbs .blue-color1.swiper-slide-thumb-active {
-  background-color: #1c3a5e;
+  background-color: #8a2be2;
 }
 
 .orange-color {
-  background: linear-gradient(124deg, #1c3a5e 0%, #F83600 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #ff8c00 95%);
   ;
 }
 
 .gallery-thumbs .orange-color1.swiper-slide-thumb-active {
-  background-color: #1c3a5e;
+  background-color: #ff8c00;
 }
 
 .skyblue-color {
@@ -7375,7 +7375,7 @@ span.two {
 }
 
 .green-color {
-  background: linear-gradient(124deg, #1c3a5e 0%, #1c3a5e 95%);
+  background: linear-gradient(124deg, #1c3a5e 0%, #152b45 95%);
 }
 
 .gallery-thumbs .green-color1.swiper-slide-thumb-active {
@@ -7948,7 +7948,7 @@ canvas{
 #loading2 .load {
   width: 7rem;
   height: 7rem;
-  border: 4px solid #0c83e7;
+  border: 4px solid #8a2be2;
   border-top: 10px solid #0a5fcf;
   border-radius: 100%;
   margin: auto;
@@ -8112,5 +8112,35 @@ body {
   }
   .brand-logo img {
     max-height: 80px !important; /* Scale logo down a bit on mobile to prevent overflow */
+  }
+}
+
+
+/* Center Build Something Great section for mobile */
+@media (max-width: 767px) {
+  .contact-block .section-titles {
+    text-align: center !important;
+  }
+  .contact-block .section-titles h2,
+  .contact-block .section-titles .hero-heading {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center !important;
+  }
+  .contact-block .digiarmada-caps {
+    margin: 0 auto !important;
+    display: block !important;
+    position: static !important;
+    text-align: center !important;
+  }
+}
+
+
+/* Fix Why Choose DigiArmada heading size on mobile */
+@media (max-width: 767px) {
+  .parrallax-block h2.hidetext {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
   }
 }
