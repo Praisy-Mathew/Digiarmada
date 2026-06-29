@@ -1539,11 +1539,11 @@
 .about-badge {
   display: inline-flex !important;
   align-items: center !important;
-  background: rgba(28, 58, 94, 0.07) !important; /* Soft brand-orange tint background */
-  border: 1px solid rgba(28, 58, 94, 0.15) !important; /* Soft brand-orange border */
+  background: rgba(138, 43, 226, 0.1) !important; /* Soft brand-orange tint background */
+  border: 1px solid rgba(138, 43, 226, 0.3) !important; /* Soft brand-orange border */
   padding: 8px 18px !important;
   border-radius: 30px !important;
-  color: #1c3a5e !important; /* Brand orange color */
+  color: #8a2be2 !important; /* Brand orange color */
   font-size: 0.9rem !important;
   font-weight: 600 !important;
   font-family: 'Poppins', sans-serif !important;
@@ -2046,7 +2046,7 @@
 }
 
 .tab-box.blue-color h3 {
-  background: linear-gradient(135deg, #1c3a5e 0%, #8a2be2 100%) !important;
+  background: linear-gradient(135deg, white 0%, #8a2be2 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
@@ -2066,12 +2066,12 @@
   -webkit-text-fill-color: transparent !important;
 }
 .tab-box.green-color h3 {
-  background: linear-gradient(135deg, #1c3a5e 0%, #1c3a5e 100%) !important;
+  background: linear-gradient(135deg, white 0%, #1c3a5e 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .tab-box.lightOrange-color h3 {
-  background: linear-gradient(135deg, #1c3a5e 0%, #F09819 100%) !important;
+  background: linear-gradient(135deg, white 0%, #F09819 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
@@ -2603,4 +2603,8 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     min-height: 100vh !important;
+}
+/* Ensure service titles are clearly visible against tab backgrounds */
+.tab-box h3 {
+  color: #ffffff !important;
 }
