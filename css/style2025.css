@@ -2631,3 +2631,15 @@ body {
     z-index: 20 !important;
   }
 }
+
+#growth-engine .explore-cta, #tech-engine .explore-cta { color: #ffffff !important; }
+#growth-engine .explore-cta:hover, #tech-engine .explore-cta:hover { color: #1c3a5e !important; }
+
+/* Ensure specific selectors override desktop display:none */
+@media (max-width: 767px) {
+  .gallery-container > .swiper-button-prev,
+  .gallery-container > .swiper-button-next {
+    display: flex !important;
+    opacity: 1 !important;
+  }
+}
