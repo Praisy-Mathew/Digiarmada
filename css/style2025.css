@@ -604,7 +604,7 @@
 
 .industries-wrap {
   max-width: 1280px !important;
-  margin: 0 auto !important;
+  margin: 30px auto 0 auto !important;
   padding: 0 28px !important;
   position: relative !important;
   z-index: 1 !important;
@@ -667,7 +667,7 @@
   font-family: 'Poppins', sans-serif !important;
   font-size: 1.08rem !important;
   color: #64748b !important;
-  margin: 0 auto !important;
+  margin: 30px auto 0 auto !important;
   max-width: 540px !important;
   line-height: 1.75 !important;
 }
@@ -1281,7 +1281,7 @@
   #casestudy_slider .case-pic img {
     width: 240px !important;
     height: 160px !important;
-    margin: 0 auto !important;
+    margin: 30px auto 0 auto !important;
   }
 }
 
@@ -1466,7 +1466,7 @@
   .hero-content-wrapper {
     text-align: center !important;
     max-width: 100% !important;
-    margin: 0 auto !important;
+    margin: 30px auto 0 auto !important;
   }
   
   .hero-content-wrapper h1 {
@@ -1714,7 +1714,7 @@
   .about-content-col {
     text-align: center !important;
     max-width: 100% !important;
-    margin: 0 auto !important;
+    margin: 30px auto 0 auto !important;
   }
   
   .about-content-col h2 {
@@ -1730,7 +1730,7 @@
   }
   
   .about-card-container {
-    margin: 0 auto !important;
+    margin: 30px auto 0 auto !important;
     max-width: 420px !important;
   }
 }
@@ -1758,9 +1758,7 @@
 
 /* --- Modern Services Section Styles --- */
 .services-block {
-  background: radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.12), transparent 50%), 
-              radial-gradient(circle at 20% 80%, rgba(28, 58, 94, 0.08), transparent 50%), 
-              #0b0914 !important; /* Deep dark cosmic background theme */
+   /* Deep dark cosmic background theme */
   padding: 150px 0 !important; /* Increased vertical padding to contain floating mockup cards */
   position: relative !important;
   z-index: 1 !important;
@@ -1867,16 +1865,8 @@
 }
 
 /* Active background & left accent indicators */
-.gallery-thumbs .blue-color1.swiper-slide-thumb-active {
-  background: rgba(138, 43, 226, 0.12) !important;
-  border-left: 4px solid #8a2be2 !important;
-  border-color: rgba(138, 43, 226, 0.25) !important;
-}
-.gallery-thumbs .orange-color1.swiper-slide-thumb-active {
-  background: rgba(255, 140, 0, 0.12) !important;
-  border-left: 4px solid #ff8c00 !important;
-  border-color: rgba(255, 140, 0, 0.25) !important;
-}
+.gallery-thumbs .blue-color1.swiper-slide-thumb-active { background: rgba(255, 182, 193, 0.12) !important; border-left: 4px solid #ffb6c1 !important; border-color: rgba(255, 182, 193, 0.25) !important; }
+.gallery-thumbs .orange-color1.swiper-slide-thumb-active { background: rgba(59, 130, 246, 0.12) !important; border-left: 4px solid #3b82f6 !important; border-color: rgba(59, 130, 246, 0.25) !important; }
 .gallery-thumbs .skyblue-color1.swiper-slide-thumb-active {
   background: rgba(80, 201, 195, 0.12) !important;
   border-left: 4px solid #1c3a5e !important;
@@ -1887,11 +1877,7 @@
   border-left: 4px solid #1c3a5e !important;
   border-color: rgba(0, 198, 255, 0.25) !important;
 }
-.gallery-thumbs .green-color1.swiper-slide-thumb-active {
-  background: rgba(28, 58, 94, 0.12) !important;
-  border-left: 4px solid #1c3a5e !important;
-  border-color: rgba(28, 58, 94, 0.25) !important;
-}
+.gallery-thumbs .green-color1.swiper-slide-thumb-active { background: rgba(177, 156, 217, 0.12) !important; border-left: 4px solid #b19cd9 !important; border-color: rgba(177, 156, 217, 0.25) !important; }
 .gallery-thumbs .lightOrange-color1.swiper-slide-thumb-active {
   background: rgba(255, 140, 47, 0.12) !important;
   border-left: 4px solid #1c3a5e !important;
@@ -1901,7 +1887,7 @@
 /* Stepper Navigation Buttons (Desktop) */
 .gallery-container > .swiper-button-prev,
 .gallery-container > .swiper-button-next {
-  display: flex !important;
+  display: none !important;
   align-items: center !important;
   justify-content: center !important;
   position: absolute !important;
@@ -2045,16 +2031,8 @@
   line-height: 1.25 !important;
 }
 
-.tab-box.blue-color h3 {
-  background: linear-gradient(135deg, white 0%, #8a2be2 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-}
-.tab-box.orange-color h3 {
-  background: linear-gradient(135deg, #1c3a5e 0%, #ff8c00 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-}
+.tab-box.blue-color h3 { background: linear-gradient(135deg, white 0%, #ffb6c1 100%) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; }
+.tab-box.orange-color h3 { background: linear-gradient(135deg, white 0%, #3b82f6 100%) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; }
 .tab-box.skyblue-color h3 {
   background: linear-gradient(135deg, #32c5ff 0%, #0072ff 100%) !important;
   -webkit-background-clip: text !important;
@@ -2065,11 +2043,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-.tab-box.green-color h3 {
-  background: linear-gradient(135deg, white 0%, #1c3a5e 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-}
+.tab-box.green-color h3 { background: linear-gradient(135deg, white 0%, #b19cd9 100%) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; }
 .tab-box.lightOrange-color h3 {
   background: linear-gradient(135deg, white 0%, #F09819 100%) !important;
   -webkit-background-clip: text !important;
@@ -2117,14 +2091,8 @@
   font-weight: bold !important;
 }
 
-.tab-box.blue-color ul.clientList li::before {
-  background: rgba(50, 91, 255, 0.15) !important;
-  color: #1c3a5e !important;
-}
-.tab-box.orange-color ul.clientList li::before {
-  background: rgba(254, 140, 0, 0.15) !important;
-  color: #1c3a5e !important;
-}
+.tab-box.blue-color ul.clientList li::before { background: rgba(255, 182, 193, 0.15) !important; color: #ffb6c1 !important; }
+.tab-box.orange-color ul.clientList li::before { background: rgba(59, 130, 246, 0.15) !important; color: #3b82f6 !important; }
 .tab-box.skyblue-color ul.clientList li::before {
   background: rgba(50, 201, 195, 0.15) !important;
   color: #1c3a5e !important;
@@ -2133,10 +2101,7 @@
   background: rgba(0, 198, 255, 0.15) !important;
   color: #1c3a5e !important;
 }
-.tab-box.green-color ul.clientList li::before {
-  background: rgba(28, 58, 94, 0.15) !important;
-  color: #1c3a5e !important;
-}
+.tab-box.green-color ul.clientList li::before { background: rgba(177, 156, 217, 0.15) !important; color: #b19cd9 !important; }
 .tab-box.lightOrange-color ul.clientList li::before {
   background: rgba(255, 140, 47, 0.15) !important;
   color: #1c3a5e !important;
@@ -2253,51 +2218,39 @@
 .tab-box .img-card-4 { border-bottom-left-radius: 22px !important; border-bottom-right-radius: 22px !important; }
 
 /* ── Color-specific neon glow per service ── */
-.tab-box.blue-color .img-card {
-  box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(50,91,255,0.18) !important;
-}
-.tab-box.orange-color .img-card {
-  box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(254,140,0,0.18) !important;
-}
+.tab-box.blue-color .img-card { box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(255, 182, 193,0.18) !important; }
+.tab-box.orange-color .img-card { box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(59, 130, 246,0.18) !important; }
 .tab-box.skyblue-color .img-card {
   box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(80,201,195,0.18) !important;
 }
 .tab-box.brandBlue-color .img-card {
   box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(0,198,255,0.18) !important;
 }
-.tab-box.green-color .img-card {
-  box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(28, 58, 94,0.18) !important;
-}
+.tab-box.green-color .img-card { box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(177, 156, 217,0.18) !important; }
 .tab-box.lightOrange-color .img-card {
   box-shadow: 0 8px 28px rgba(0,0,0,0.55), 0 0 20px rgba(255,140,47,0.18) !important;
 }
 
 /* ── Hover glow intensified ── */
-.tab-box.blue-color .img-card:hover {
-  box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(50,91,255,0.4) !important;
-}
-.tab-box.orange-color .img-card:hover {
-  box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(254,140,0,0.4) !important;
-}
+.tab-box.blue-color .img-card:hover { box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(255, 182, 193,0.4) !important; }
+.tab-box.orange-color .img-card:hover { box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(59, 130, 246,0.4) !important; }
 .tab-box.skyblue-color .img-card:hover {
   box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(80,201,195,0.4) !important;
 }
 .tab-box.brandBlue-color .img-card:hover {
   box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(0,198,255,0.4) !important;
 }
-.tab-box.green-color .img-card:hover {
-  box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(28, 58, 94,0.4) !important;
-}
+.tab-box.green-color .img-card:hover { box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(177, 156, 217,0.4) !important; }
 .tab-box.lightOrange-color .img-card:hover {
   box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 36px rgba(255,140,47,0.4) !important;
 }
 
 /* ── Colored left-border accent on card 1 ── */
-.tab-box.blue-color .img-card-1 { border-left: 3px solid rgba(50,91,255,0.5) !important; }
-.tab-box.orange-color .img-card-1 { border-left: 3px solid rgba(254,140,0,0.5) !important; }
+.tab-box.blue-color .img-card-1 { border-left: 3px solid rgba(255, 182, 193,0.5) !important; }
+.tab-box.orange-color .img-card-1 { border-left: 3px solid rgba(59, 130, 246,0.5) !important; }
 .tab-box.skyblue-color .img-card-1 { border-left: 3px solid rgba(80,201,195,0.5) !important; }
 .tab-box.brandBlue-color .img-card-1 { border-left: 3px solid rgba(0,198,255,0.5) !important; }
-.tab-box.green-color .img-card-1 { border-left: 3px solid rgba(28, 58, 94,0.5) !important; }
+.tab-box.green-color .img-card-1 { border-left: 3px solid rgba(177, 156, 217,0.5) !important; }
 .tab-box.lightOrange-color .img-card-1 { border-left: 3px solid rgba(255,140,47,0.5) !important; }
 
 @media (max-width: 991px) {
@@ -2536,6 +2489,11 @@
 }
 
 @media (max-width: 767px) {
+  .swiper-button-prev,
+  .gallery-container > .swiper-button-next {
+    display: flex !important;
+  }
+
   .about-visual-col {
     min-height: 320px !important;
   }
@@ -2607,4 +2565,69 @@ body {
 /* Ensure service titles are clearly visible against tab backgrounds */
 .tab-box h3 {
   color: #ffffff !important;
+}
+
+#growth-engine { background: linear-gradient(135deg, #87ceeb 0%, #4682b4 100%) !important; }
+#tech-engine { background: linear-gradient(135deg, #50c878 0%, #0b6623 100%) !important; }
+
+/* Ensure text is black for readability on new backgrounds */
+#growth-engine *, #tech-engine * {
+    color: #000000 !important;
+}
+#growth-engine h3, #tech-engine h3 {
+    background: none !important;
+    -webkit-text-fill-color: #000000 !important;
+}
+#growth-engine ul.clientList li::before,
+#tech-engine ul.clientList li::before {
+    color: #000000 !important;
+}
+
+/* Ensure prev button is always visible on mobile even if on first slide */
+@media (max-width: 767px) {
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-button-prev.swiper-button-disabled,
+  .swiper-button-next.swiper-button-disabled {
+    display: flex !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+}
+
+/* Shorten bottom padding on Growth Engine */
+#growth-engine {
+    padding-bottom: 30px !important;
+}
+
+/* Hover effect for the new Explore buttons */
+.explore-cta:hover {
+    background: transparent !important;
+    color: #1c3a5e !important;
+    box-shadow: 0 8px 25px rgba(28, 58, 94, 0.4) !important;
+    transform: translateY(-3px) !important;
+}
+
+/* Center the CTA buttons on mobile view */
+@media (max-width: 767px) {
+  .explore-cta {
+    display: table !important;
+    margin: 30px auto 0 auto !important;
+  }
+}
+
+/* Reduce top margin for Tech Engine CTA on mobile view */
+@media (max-width: 767px) {
+  #tech-engine .explore-cta {
+    margin-top: -30px !important; position: relative; z-index: 20;
+  }
+}
+
+/* Pull CTA buttons up on Desktop/Laptop view */
+@media (min-width: 768px) {
+  .explore-cta {
+    margin-top: -70px !important;
+    position: relative !important;
+    z-index: 20 !important;
+  }
 }

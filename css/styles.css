@@ -7340,22 +7340,13 @@ span.two {
 
 
 
-.blue-color {
-  background: linear-gradient(124deg, #1c3a5e 0%, #8a2be2 95%);
-}
+.blue-color { background: linear-gradient(124deg, #1c3a5e 0%, #ffb6c1 95%); }
 
-.gallery-thumbs .blue-color1.swiper-slide-thumb-active {
-  background-color: #8a2be2;
-}
+.gallery-thumbs .blue-color1.swiper-slide-thumb-active { background-color: #ffb6c1; }
 
-.orange-color {
-  background: linear-gradient(124deg, #1c3a5e 0%, #ff8c00 95%);
-  ;
-}
+.orange-color { background: linear-gradient(124deg, #1c3a5e 0%, #3b82f6 95%); }
 
-.gallery-thumbs .orange-color1.swiper-slide-thumb-active {
-  background-color: #ff8c00;
-}
+.gallery-thumbs .orange-color1.swiper-slide-thumb-active { background-color: #3b82f6; }
 
 .skyblue-color {
   background: linear-gradient(124deg, #1c3a5e 0%, #96DEDA 95%);
@@ -7374,13 +7365,9 @@ span.two {
   background-color: #1c3a5e;
 }
 
-.green-color {
-  background: linear-gradient(124deg, #1c3a5e 0%, #152b45 95%);
-}
+.green-color { background: linear-gradient(124deg, #1c3a5e 0%, #b19cd9 95%); }
 
-.gallery-thumbs .green-color1.swiper-slide-thumb-active {
-  background-color: #1c3a5e;
-}
+.gallery-thumbs .green-color1.swiper-slide-thumb-active { background-color: #b19cd9; }
 
 .lightOrange-color {
   background: linear-gradient(124deg, #1c3a5e 0%, #F09819 95%);
